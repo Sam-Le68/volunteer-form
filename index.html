@@ -20,7 +20,7 @@
     </header>
     <form class="pad-t gutter-1-2" action="https://formspree.io/lamanhmj@gmail.com" method="post">
 
-      <legend class="bold mega push">Personal details</legend>
+      <h2 class="bold mega push">Personal details</h2>
       <div class="addborderbottom grid pad-b-2">
         <div class="content-fill unit-content-distribute padonright unit xs-1 s-1 m-1-2 l-1-2">
           <div class="push-1-2">
@@ -54,11 +54,13 @@
             <option>Straight-cut: XL</option>
           </select>
           <label for="pn">Phone number <span class="optional italic">(optional)</span></label>
-          <input type="number" id="pn" name="pn">
+          <input type="tel" id="pn" name="pn">
         </div>
       </div>
 
-      <legend class="mega unit xs-1 s-1 m-1 l-1 push bold">Address</legend>
+      <hr>
+
+      <h2 class="mega unit xs-1 s-1 m-1 l-1 push bold">Address</h2>
       <div class="addborderbottom pad-t-2 pad-b-2 grid">
         <div class="padonright unit xs-1 s-1 m-1-2 l-1-2">
           <label for="address">Street address</label>
@@ -89,6 +91,8 @@
         </div>
       </div>
 
+      <hr>
+
       <div class="addborderbottom pad-t-2 pad-b-2">
         <div class="push-1-2">
           <p class="mega bold">What activities are you interested in helping with?</p>
@@ -115,6 +119,9 @@
             <label for="ac8">Managing people</label><br>
           </div>
         </div>
+
+        <hr>
+
         <div class="push-1-2">
           <p class="mega bold">Do you have any experience with the following?</p>
         </div>
@@ -148,8 +155,8 @@
 
       <div class="addborderbottom pad-t-2 pad-b-2">
         <div class="push">
-          <p class="push-1-2 mega bold">Do you have a valid driver’s license?</p>
           <fieldset>
+            <legend class="push-1-2 mega bold">Do you have a valid driver’s license?</legend>
             <input type="radio" name="license" id="yes-1">
             <label class="push-r" for="yes-1">Yes</label>
             <input type="radio" name="license" id="no-1">
@@ -157,8 +164,8 @@
           </fieldset>
         </div>
         <div class="push">
-          <p class="push-1-2 mega bold">Do you have a pick-up truck you’d be willing to use?</p>
           <fieldset>
+            <legend class="push-1-2 mega bold">Do you have a pick-up truck you’d be willing to use?</legend>
             <input type="radio" name="truck" id="yes-2">
             <label class="push-r" for="yes-2">Yes</label>
             <input type="radio" name="truck" id="no-2">
@@ -166,8 +173,8 @@
           </fieldset>
         </div>
         <div class="push">
-          <p class="push-1-2 mega bold">Do you have up-to-date first-aid certification?</p>
           <fieldset>
+            <legend class="push-1-2 mega bold">Do you have up-to-date first-aid certification?</legend>
             <input type="radio" name="cpr" id="yes-3">
             <label class="push-r" for="yes-3">Yes</label>
             <input type="radio" name="cpr" id="no-3">
@@ -175,6 +182,8 @@
           </fieldset>
         </div>
       </div>
+
+      <hr>
 
       <div class="addborderbottom pad-t-2">
         <label for="comments" class="push-1-2 mega bold">Please let us know any comments or questions you may have.<span class="optional italic not-bold">(optional)</span></label>
