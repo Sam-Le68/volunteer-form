@@ -7,6 +7,10 @@ html {
   color: #fff;
 }
 
+input {
+  margin-top: 2px;
+}
+
 input, select, textarea {
   border-color: #6e8c62;
 }
