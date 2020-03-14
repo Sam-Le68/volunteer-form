@@ -1,0 +1,12 @@
+html {
+  font-family: "Noto Serif", serif;
+}
+
+.green-background {
+  background-color: #70ad55;
+  color: #fff;
+}
+
+input, select, textarea {
+  border-color: #6e8c62;
+}
