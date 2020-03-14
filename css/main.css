@@ -15,8 +15,8 @@ input, select, textarea {
   color: #70ad55;
 }
 
-.addborderbottom {
-  border-bottom: 1px solid #70ad55;
+hr {
+  color: #70ad55;
 }
 
 .btn {
